@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AREA Reaction</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="chooseReactions.css">
+	<link rel="icon" type="image/png" href="images/arealogonotext.png" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">
+  <link rel="icon" type="image/png" href="images/arealogonotext.png" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+	<div class="container">
+    <img src="images/arealogo.png" height="37" width="75" onclick="document.location.href = '/home_page';" style="cursor: pointer;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" id="welcome" style="pointer-events: none; cursor: default;" href="#">Welcome <span id="userEmail"></span> !</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/home_page">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/profile">Profile</a>
+        </li>
+      </ul>
+      <a class="nav-link" id="logout" href="#" onclick="logout()"><i class="fas fa-sign-out-alt"></i> Logout</a>
+    </div>
+    </div>
+    </nav>
+  	<div class="container" id="content">
+		<span id="reactTitle">What reaction do you want to add ?</span>
+		<br>
+		<br>
+		<br>
+		<div class="row d-flex justify-content-around align-items-center">
+			<div class="card" style="width: 18rem;">
+			  <img class="card-img-top react_img" src="images/twitter_logo.png" alt="Card image cap">
+			  <div class="card-body">
+			    <h5 class="card-title">Twitter</h5>
+			    <p class="card-text">Write a custom message and tweet it when triggered.</p>
+			    <a href="/tweet" class="btn btn-primary">Tweet something</a>
+			  </div>
+			</div>
+			<div class="card" style="width: 18rem;">
+			  <img class="card-img-top react_img" src="images/twitter_dm_logo.png" alt="Card image cap">
+			  <div class="card-body">
+			    <h5 class="card-title">Twitter DM</h5>
+			    <p class="card-text">Write a custom message and send it to your Twitter friend.</p>
+			    <a href="/tweet-dm" class="btn btn-primary">DM someone</a>
+			  </div>
+			</div>
+			<div class="card" style="width: 18rem;">
+			  <img class="card-img-top react_img" src="images/mail_logo.png" alt="Card image cap">
+			  <div class="card-body">
+			    <h5 class="card-title">Email</h5>
+			    <p class="card-text">Send a custom message to a given email address.</p>
+			    <a href="/mail" class="btn btn-primary">Mail someone</a>
+			  </div>
+			</div>
+		</div>
+		<br>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="check_login.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

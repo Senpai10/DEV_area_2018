@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AREA</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_my_area">MY AREA</string>
+    <string name="title_add">ADD</string>
+    <string name="title_profile">PROFILE</string>
+
+    <string name="client_id_google">104617647276-8oj72rdm8en0u3639c9qdhel37ek1e8p.apps.googleusercontent.com</string>
+    <string name="client_secret_google">BmNuNxPiEn8g8R1pDBgp5N6D</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

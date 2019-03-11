@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+	font-family: 'Montserrat';
+	background: white;
+	background-image:url(images/background.jpg);
+}
+
+#logout {
+	color: #03B7DD;
+}
+
+#logout:hover {
+	color: #B1D9EC;
+}
+
+#content {
+	margin-top: 56px;
+	background: #EEEEEE;
+	display: flex;
+	height: auto;
+	min-height: 830px;
+    margin-top: 80px;
+    box-shadow: -1px 1px 60px 10px black;
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#triggerContent {
+	margin-top: 56px;
+	background: #EEEEEE;
+	display: flex;
+	height: auto;
+	width: 700px;
+	min-height: 550px;
+    margin-top: 80px;
+    box-shadow: -1px 1px 60px 10px black;
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 23px;
+}
+
+#triggerContent > p > a {
+	font-size: 23px;
+	width: 180px;
+    border-radius: 30px;
+}
+
+#triggerContent > p > input {
+    border-radius: 50px;
+    border: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#welcome {
+	margin-left: 15px;
+	margin-right: 7px;
+}
+
+#btnTwitter {
+	margin-left: 15px;
+	color: white;
+}
+
+.btn-twitter {
+	cursor: pointer;
+	border-radius: 25px;
+	font-size: 14px;
+}
+
+#wrapper {
+	margin-top: 60px;
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#addTrigger {
+	font-size: 25px;
+	width: 300px;
+	border-radius: 35px;
+	height: 60px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.triggerInfos {
+	box-shadow: 0 0 3px #606060;
+	background: #F9F9F9;
+	margin-top: 30px;
+	border-radius: 100px;
+	height: 100px;
+	width: 700px;
+	pointer-events: none;
+	cursor: default;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.actionDesc {
+	position: relative;
+	bottom: 2px;
+	display: inline-block;
+	float: left;
+	left: 32px;
+	bottom: 2px;
+}
+
+.reactionDesc {
+	position: relative;
+	display: inline-block;
+	float: left;
+	left: 32px;
+	top: 7px;
+}
+
+.trash {
+	position: relative;
+	pointer-events: auto;
+	cursor: pointer;
+	top: 38px;
+	left: 310px;
+}
+
+#reactTitle {
+	font-size: 30px;
+	position: relative;
+	top: 10px;
+}
+
+#reactWrapper {
+	width: 1140px;
+}
+
+.card {
+	margin: 0px 0px;
+}

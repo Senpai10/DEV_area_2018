@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+	font-family: 'Montserrat';
+	background: white;
+	background-image:url(images/background.jpg);
+}
+
+#logout {
+	color: #03B7DD;
+}
+
+#logout:hover {
+	color: #B1D9EC;
+}
+
+#content {
+    margin-top: 80px;
+    box-shadow: -1px 1px 60px 10px black;
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#welcome {
+	margin-left: 15px;
+	margin-right: 7px;
+}
+
+#btnTwitter {
+	margin-left: 15px;
+	color: white;
+}
+
+.btn-twitter {
+	cursor: pointer;
+	border-radius: 25px;
+	font-size: 14px;
+}
+
+#wrapper {
+	margin-top: 60px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#addTrigger {
+	font-size: 25px;
+	width: 300px;
+	border-radius: 35px;
+	height: 60px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.triggerInfos {
+	box-shadow: 0 0 3px #606060;
+	background: #F9F9F9;
+	margin-top: 20px;
+	border-radius: 100px;
+	height: 100px;
+	width: 500px;
+	pointer-events: none;
+	cursor: default;
+}
+
+.actionDesc {
+	position: relative;
+	bottom: 2px;
+	display: inline-block;
+	float: left;
+	left: 32px;
+	font-size: 14px;
+}
+
+.reactionDesc {
+	position: relative;
+	display: inline-block;
+	float: left;
+	left: 32px;
+	font-size: 14px;
+	top: 9px;
+}
+
+.trash {
+	position: relative;
+	pointer-events: auto;
+	cursor: pointer;
+	top: 38px;
+	left: 220px;
+}
+
+#reactTitle {
+	font-size: 30px;
+	position: relative;
+	top: 10px;
+	color: white;
+}
+
+#reactWrapper {
+	width: 1140px;
+}
+
+.card {
+	margin: 0px 0px;
+}
+
+.react_img {
+	height: 188.28px;
+	width: 286px;
+}

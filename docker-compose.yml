@@ -1,0 +1,25 @@
+version: '2'
+volumes:
+  common:
+services:
+  server:
+    image: python:alpine
+    container_name: server
+    build: ./server
+    ports:
+      - "8080:8080"
+  client_web:
+    build: ./web_client
+    ports:
+      - "8081:8081"
+    volumes:
+      - common:/app/apk
+    depends_on:
+      - mobile_user
+      - server
+  mobile_user:
+    build: ./mobile_client
+    depends_on:
+      - server
+    volumes:
+      - common:/mobile
