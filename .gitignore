@@ -1,0 +1,14 @@
+web_client/node_modules/*
+server/__pycache__
+mobile_client/*.iml
+mobile_client/app/*.iml
+mobile_client/app/app.iml
+mobile_client/.gradle
+mobile_client/local.properties
+mobile_client/.idea/workspace.xml
+mobile_client/.idea/libraries
+mobile_client/.idea/
+mobile_client/.DS_Store
+mobile_client/app/build
+mobile_client/.externalNativeBuild
+mobile_client/app/captures
